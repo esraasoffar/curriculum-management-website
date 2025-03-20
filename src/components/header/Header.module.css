@@ -1,0 +1,47 @@
+/* Header styling */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #006D77;
+    height: 96px;
+    width: 100%;
+}
+
+.logoImage {
+    width: 300px;
+    padding-left: 16px;
+}
+
+/* Styling the navigation list */
+.navList {
+    display: flex;
+}
+
+/* Styling each navigation item */
+.navItem {
+    font-weight: 20px;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 70px;
+    color: #EDF6F9;
+}
+
+/* Remove underline from links by default */
+.navItem a {
+    text-decoration: none;  
+    color: inherit;  
+}
+
+/* Styling the active NavLink */
+.navItem a.active {
+    color: #E29578;
+    font-weight: bold;  
+    text-decoration: underline; 
+}
+
+/* Styling the hover Navlink */
+.navItem a:hover {
+    color: #E29578;
+}
