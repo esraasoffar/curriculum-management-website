@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import styles from './LoginForm.module.css';
-import users from '../../users.json';
+import users from '../../data/users.json';
 import { useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {

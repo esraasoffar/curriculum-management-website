@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "code": "NMXAN1EBNE",
+    "courseName": "Mathematics I \u2013 Calculus I",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 2,
+    "code": "NMXAN2EBNE",
+    "courseName": "Calculus II.",
+    "semester": 2,
+    "prerequisiteID": 1,
+    "prerequisiteName": "NMXAN1EBNE"
+  },
+  {
+    "id": 3,
+    "code": "NMXDM1EBNE",
+    "courseName": "Discrete Mathematics and Linear Algebra I",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 4,
+    "code": "NMXDM2EBNE",
+    "courseName": "Discrete Mathematics and Linear Algebra II",
+    "semester": 2,
+    "prerequisiteID": 3,
+    "prerequisiteName": "NMXDM1EBNE"
+  },
+  {
+    "id": 5,
+    "code": "NMXVS1EBNE",
+    "courseName": "Probability Theory and Mathematical Statistics",
+    "semester": null,
+    "prerequisiteID": 4,
+    "prerequisiteName": "NMXDM2EBNE"
+  },
+  {
+    "id": 6,
+    "code": "NIXBI1EBNE",
+    "courseName": "Basics of Information Systems",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 7,
+    "code": "KVXFI1EBNE",
+    "courseName": "Physics",
+    "semester": 2,
+    "prerequisiteID": 1,
+    "prerequisiteName": "NMXAN1EBNE"
+  },
+  {
+    "id": 8,
+    "code": "KVEVI1EBNE",
+    "courseName": "Electrical Engineering *",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 9,
+    "code": "GGXKG1EBNE",
+    "courseName": "Macroeconomics",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 10,
+    "code": "GGXKG2EBNE",
+    "courseName": "Microeconomics",
+    "semester": 0,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 11,
+    "code": "GSXVG0EBNE",
+    "courseName": "Enterprise Economics *",
+    "semester": 3,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 12,
+    "code": "GVXME1EBNE",
+    "courseName": "Basics of Management",
+    "semester": 5,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 13,
+    "code": "GGXJA1EBNE",
+    "courseName": "Public Administration and Law *",
+    "semester": 6,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 14,
+    "code": "NNXIK1EBNE",
+    "courseName": "Infocommunication Techniques",
+    "semester": 4,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 15,
+    "code": "NIXSF1EBNE",
+    "courseName": "Software Design and Development I",
+    "semester": 1,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 16,
+    "code": "NIXSF2EBNE",
+    "courseName": "Software Design and Development II",
+    "semester": 2,
+    "prerequisiteID": 15,
+    "prerequisiteName": "NIXSF1EBNE"
+  },
+  {
+    "id": 17,
+    "code": "NSXHF1EBNE",
+    "courseName": "Advanced Development Techniques",
+    "semester": 3,
+    "prerequisiteID": 16,
+    "prerequisiteName": "NIXSF2EBNE"
+  },
+  {
+    "id": 18,
+    "code": "NSXJW1EBNE",
+    "courseName": "Web development in Java",
+    "semester": 3,
+    "prerequisiteID": 16,
+    "prerequisiteName": "NIXSF2EBNE"
+  },
+  {
+    "id": 19,
+    "code": "NIXAB0EBNE",
+    "courseName": "Databases",
+    "semester": 3,
+    "prerequisiteID": 15,
+    "prerequisiteName": "NIXSF1EBNE"
+  },
+  {
+    "id": 20,
+    "code": "NIXSG1EBNE",
+    "courseName": "Software Technology and GUI Design",
+    "semester": 4,
+    "prerequisiteID": 17,
+    "prerequisiteName": "NSXHF1EBNE"
+  },
+  {
+    "id": 21,
+    "code": "NIXRE1EBNE",
+    "courseName": "System Theory",
+    "semester": 3,
+    "prerequisiteID": 2,
+    "prerequisiteName": "NMXAN2EBNE"
+  },
+  {
+    "id": 22,
+    "code": "NIEEL0EBNE",
+    "courseName": "Electronics *",
+    "semester": 2,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 23,
+    "code": "NIXDR0EBNE",
+    "courseName": "Digital Systems",
+    "semester": 3,
+    "prerequisiteID": 22,
+    "prerequisiteName": "NIEEL0EBNE"
+  },
+  {
+    "id": 24,
+    "code": "NIESA1EBNE",
+    "courseName": "Introduction to Computer Architectures *",
+    "semester": 5,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 25,
+    "code": "NIXKA1EBNE",
+    "courseName": "Advanced Computer Architectures I",
+    "semester": 6,
+    "prerequisiteID": 24,
+    "prerequisiteName": "NIESA1EBNE"
+  },
+  {
+    "id": 26,
+    "code": "NIXKA2EBNE",
+    "courseName": "Advanced Computer Architectures II",
+    "semester": 7,
+    "prerequisiteID": 25,
+    "prerequisiteName": "NIXKA1EBNE"
+  },
+  {
+    "id": 27,
+    "code": "NIEOR1EBNE",
+    "courseName": "Operating Systems *",
+    "semester": 3,
+    "prerequisiteID": 28,
+    "prerequisiteName": "NIXSH0EBNE"
+  },
+  {
+    "id": 28,
+    "code": "NIXSH0EBNE",
+    "courseName": "Computer Networks",
+    "semester": 2,
+    "prerequisiteID": 6,
+    "prerequisiteName": "NIXBI1EBNE"
+  },
+  {
+    "id": 29,
+    "code": "NIXIR0EBNE",
+    "courseName": "Intelligent Systems",
+    "semester": 4,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 30,
+    "code": "NIXVI0EBNE",
+    "courseName": "Enterprise Information Systems",
+    "semester": 5,
+    "prerequisiteID": 19,
+    "prerequisiteName": "NIXAB0EBNE"
+  },
+  {
+    "id": 31,
+    "code": "NIEIB0EBNE",
+    "courseName": "IT Security *",
+    "semester": 4,
+    "prerequisiteID": 27,
+    "prerequisiteName": "NIEOR1EBNE"
+  },
+  {
+    "id": 33,
+    "code": "NNPPR1EBNE",
+    "courseName": "Project Work I.",
+    "semester": 4,
+    "prerequisiteID": null,
+    "prerequisiteName": null
+  },
+  {
+    "id": 34,
+    "code": "NNPPR1EBNE",
+    "courseName": "Project Work II.",
+    "semester": 5,
+    "prerequisiteID": 33,
+    "prerequisiteName": "NNPPR1EBNE"
+  },
+  {
+    "id": 35,
+    "code": "NNPPR1EBNE",
+    "courseName": "Project Work III.",
+    "semester": 6,
+    "prerequisiteID": 34,
+    "prerequisiteName": "NNPPR1EBNE"
+  },
+  {
+    "id": 36,
+    "code": "NNPPR1EBNE",
+    "courseName": "Project Work IV.",
+    "semester": 7,
+    "prerequisiteID": 35,
+    "prerequisiteName": "NNPPR1EBNE"
+  },
+  {
+    "id": 37,
+    "code": "NNDSD1EBNE",
+    "courseName": "Thesis I",
+    "semester": 6,
+    "prerequisiteID": 33,
+    "prerequisiteName": "NNPPR1EBNE"
+  },
+  {
+    "id": 38,
+    "code": "NNDSD2EBNE",
+    "courseName": "Thesis II",
+    "semester": 7,
+    "prerequisiteID": 37,
+    "prerequisiteName": "NNDSD1EBNE"
+  }
+]
